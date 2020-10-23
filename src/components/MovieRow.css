@@ -12,7 +12,7 @@
 }
 
 .movieRow--list {
-  width: 99999px;
+  transition: all ease 0.5s;
 }
 
 .movieRow--item {
@@ -59,4 +59,13 @@
 .movieRow:hover .movieRow--left,
 .movieRow:hover .movieRow--right {
   opacity: 1;
+}
+
+@media (max-width: 760px) {
+
+  .movieRow--left,
+  .movieRow--right {
+    opacity: 1;
+  }
+
 }

@@ -1,4 +1,4 @@
-const API_KEY = "[ YOUR API KEY ]";
+const API_KEY = "f4f3b771b7dd4d90637668b5c59a3748";
 const API_BASE = "https://api.themoviedb.org/3";
 
 /* 

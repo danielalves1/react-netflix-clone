@@ -64,7 +64,15 @@ export default () => {
         <a href="https://www.themoviedb.org" className="tmdb">
           TMDB
         </a>
+        <br/>
+        Dev: Daniel Alves
       </footer>
+
+      {movieList.length <= 0 && (
+        <div className="loading">
+          <img alt="" src="https://cdn.lowgif.com/small/0534e2a412eeb281-the-counterintuitive-tech-behind-netflix-s-worldwide.gif" />
+        </div>
+      )}
     </div>
   );
 };
